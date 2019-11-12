@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [heatClinic]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="heatClinicTest(failed)">
+    <classes>
+      <class name="com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.testscripts.HeatClinicFuctionalityTesting">
+        <methods>
+          <include name="intailization"/>
+          <include name="intitailizeBrowser"/>
+          <include name="merchandiseFunctionality" invocation-numbers="0"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.tutorialsninjaandheatclinic.TutorialsninjaAndHeatclinicAutomation.testscripts.HeatClinicFuctionalityTesting -->
+    </classes>
+  </test> <!-- heatClinicTest(failed) -->
+</suite> <!-- Failed suite [heatClinic] -->
